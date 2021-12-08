@@ -1,0 +1,395 @@
+.body {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.top_img {
+    margin: 0;
+    background-color: #0000009e;
+    height: 50vh;
+    /*box-shadow: inset 0px -80px 40px -20px #ffffff;*/
+}
+
+.top_section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../images/fire4.jpg") no-repeat center; /* The image used */
+    /* You must set a specified height */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.top_text {
+    position: relative;
+    top: 15vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.text_top h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+.about_top {
+    padding: 50px 0;
+}
+
+
+/*.panel-body {*/
+/*    box-shadow: -21px 21px 0px 0px #c0c0c052;*/
+/*}*/
+
+.pannel_outer {
+    box-shadow: -18px 18px 0px 0px #c0c0c052;
+}
+
+.info_img {
+    box-shadow: -9px 9px 0px 0px #c0c0c052;
+    overflow: hidden;
+    /*width: 60%;*/
+    margin: auto;
+}
+
+
+.panel-body img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 400ms ease-out;
+
+}
+
+.panel-body img:hover {
+    transform: scale(1.15);
+}
+
+.about_info {
+    padding: 50px;
+}
+
+.about_info h2 {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #414042;
+    text-transform: capitalize;
+}
+
+.about_info p {
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #3c3c3c;
+}
+
+.about_blue {
+    color: #216bac;
+}
+
+@media (max-width: 992px) {
+    .img_1 {
+        content: url("images/fire_est_2.jpg");
+    }
+
+    .about_info {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img_1 {
+        content: url("images/fire_est_1.jpg");
+    }
+
+    .info_img_div {
+        margin: 50px auto;
+    }
+
+}
+
+/*achievements*/
+.achievements {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.achieve_top_div h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #414042;
+    text-transform: capitalize;
+    line-height: 1.6;
+}
+
+.achieve_top_div p {
+    width: 50%;
+    margin: auto;
+    color: #707070;
+    font-weight: bold;
+}
+
+.achieve_top_div {
+    margin: 50px 50px 80px;
+}
+
+@media (max-width: 800px) {
+    .achieve_top_div p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .achieve_top_div {
+        margin: 0 10px 30px;
+    }
+
+    .achievements {
+        margin: 20px auto;
+    }
+
+    .achieve_top_div h2 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 450px) {
+    .achieve_top_div p {
+        width: 90%;
+        font-weight: normal;
+    }
+}
+
+.total_users_col h2 {
+    color: #216bac;
+    letter-spacing: 7px;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.6;
+}
+
+.total_users_col p {
+    color: #707070;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.total_users_col {
+    text-align: center;
+}
+
+x
+/* DMS */
+
+.pannel_outer_2 {
+    box-shadow: 18px 18px 0px 0px #c0c0c052;
+}
+
+.info_img_2 {
+    box-shadow: 9px 9px 0px 0px #c0c0c052;
+    overflow: hidden;
+    /*width: 60%;*/
+    margin: auto;
+}
+
+
+.panel-body_2 img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 400ms ease-out;
+
+}
+
+.panel-body_2 img:hover {
+    transform: scale(1.15);
+}
+
+@media (max-width: 992px) {
+    .img_2 {
+        content: url("images/fire_safety_2.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    .img_2 {
+        content: url("images/fire_safety.jpg");
+    }
+}
+
+/* Goals */
+.goal {
+    margin-top: 70px;
+    width: 100%;
+    /*height: 30vh;*/
+    background: #e7e7e7;
+    position: relative;
+    padding: 70px 10px;
+    box-shadow: 70px 0 20px 0 #e7e7e7;
+}
+
+.goal:before {
+    background: white;
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: -25px;
+    height: 50px;
+    border-radius: 0 0 50% 50%;
+}
+
+.goal_img_div{
+    margin: 50px;
+}
+
+@media (max-width: 1000px) {
+    .goal_img_div{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 765px) {
+    .goal_img_div{
+        margin: 50px;
+    }
+}
+
+.img_sticker{
+    width: 100%;
+    transition: transform 1s;
+}
+
+.img_sticker:hover{
+    transform: scale(1.15);
+}
+
+.goal_main_text p{
+    padding-left: 55px;
+    font-size: 0.8rem;
+}
+
+.goal p{
+    color: #282828;
+}
+
+.goal h5{
+    line-height: 2;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #404040;
+}
+
+.goal h5:hover{
+    font-weight: bolder;
+    color: #242424;
+}
+
+.fa_icon{
+    color: white;
+    padding: 10px;
+    background-color: #216bac;
+    border-radius: 50%;
+    margin-right: 15px;
+    transform: scale(0.8);
+}
+
+.fa_icon:hover{
+    transform: scale(1);
+}
+
+/* Mission */
+.mission{
+    background: #e7e7e7;
+    padding-bottom: 50px;
+}
+
+.mission_main_text {
+
+}
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #242424;
+
+}
+
+.footer_div {
+    padding: 50px 0;
+    color: #e6e7e8;
+    background-size: 150% 100%;
+    background-image: url("../images/footer.png"); /* The image used */
+    /*background-color: black; !* Used if the image is unavailable *!*/
+    /* You must set a specified height */
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.footer_about {
+    padding: 20px;
+}
+
+.footer_about h3 {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.footer_about p {
+    line-height: 1.5;
+    font-weight: 250;
+}
+
+.footer_about a {
+    text-decoration: none;
+    color: #e6e7e8;
+    line-height: 2;
+}
+
+.footer_about a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.footer_icon {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.footer_icon:hover {
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    background-color: white;
+    color: #242424;
+}
+
+.creator {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 50px 30px 0;
+}
+
+.creator a {
+    text-decoration: none;
+    color: white;
+}
+
+.creator a:hover {
+    text-decoration: none;
+    color: white;
+}
