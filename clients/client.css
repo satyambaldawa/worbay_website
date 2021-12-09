@@ -1,0 +1,198 @@
+.body {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.top_img {
+    margin: 0;
+    background-color: #0000009e;
+    height: 50vh;
+    /*box-shadow: inset 0px -80px 40px -20px #ffffff;*/
+}
+
+.top_section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("images/fire-sprinkler-system.jpg") no-repeat center; /* The image used */
+    /* You must set a specified height */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.top_text {
+    position: relative;
+    top: 15vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.text_top h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+/* clients top*/
+.client_head {
+    background-color: #e7e7e7;
+    padding: 50px 0;
+}
+
+.client_top_img {
+    margin: 60px;
+    overflow: hidden;
+}
+
+@media (max-width: 500px) {
+    .client_top_img {
+        margin: 20px 40px;
+    }
+}
+
+.client_emoji {
+    width: 100%;
+    transition: transform 1s;
+}
+
+.client_emoji:hover {
+    transform: scale(1.1);
+}
+
+.client_info {
+    margin: 20px;
+}
+
+.client_info h2 {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #414042;
+    text-transform: capitalize;
+}
+
+.blue_word {
+    color: #216bac;
+}
+
+.client_info p {
+    margin: 20px auto;
+    color: #404040;
+    font-weight: 350;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Clients */
+.client_section{
+    padding: 35px 0;
+    text-align: center;
+}
+
+.client_section h2{
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #216bac;
+    text-transform: capitalize;
+}
+
+.h2_icon{
+    transform: scale(1.25);
+    margin: auto 10px;
+    transition: transform 1s ;
+}
+
+.h2_icon:hover{
+    transform: scale(1.4);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.client_names_div{
+    color: #404040;
+    text-align: left;
+}
+
+.client_names_div p:hover{
+    font-weight: 600;
+}
+
+.name_bullet{
+    margin-right:10px ;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #242424;
+
+}
+
+.footer_div {
+    padding: 50px 0;
+    color: #e6e7e8;
+    background-size: 150% 100%;
+    background-image: url("../images/footer.png"); /* The image used */
+    /*background-color: black; !* Used if the image is unavailable *!*/
+    /* You must set a specified height */
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.footer_about {
+    padding: 20px;
+}
+
+.footer_about h3 {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.footer_about p {
+    line-height: 1.5;
+    font-weight: 250;
+}
+
+.footer_about a {
+    text-decoration: none;
+    color: #e6e7e8;
+    line-height: 2;
+}
+
+.footer_about a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.footer_icon {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.footer_icon:hover {
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    background-color: white;
+    color: #242424;
+}
+
+.creator {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 50px 30px 0;
+}
+
+.creator a {
+    text-decoration: none;
+    color: white;
+}
+
+.creator a:hover {
+    text-decoration: none;
+    color: white;
+}
