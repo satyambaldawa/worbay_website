@@ -58,17 +58,6 @@
     }
 }
 
-@media (max-width: 1000px) {
-    .i1 {
-        content: url("images/constro_full.jpeg");
-    }
-}
-
-@media (max-width: 769px) {
-    .i1 {
-        content: url("images/feature-image-02032018.jpeg");
-    }
-}
 
 .event_main_img {
     width: 100%;
@@ -146,29 +135,34 @@
     height: 100%;
 }
 
+
 @media (max-width: 1000px) {
+    .i1 {
+        content: url("images/constro_full.jpeg");
+    }
+
     .i2 {
         content: url("images/paani_foundation_vert.jpg");
     }
-}
 
-@media (max-width: 769px) {
-    .i2 {
-        content: url("images/paani_foundation_full.jpeg");
-    }
-}
-
-@media (max-width: 1000px) {
     .i3 {
         content: url("images/annual_day_vert.jpeg");
     }
 
     .i4 {
-        content: url("images/annual_day_vert.jpeg");
+        content: url("images/annual_strategy_meet_vert.jpeg");
     }
 }
 
 @media (max-width: 769px) {
+    .i1 {
+        content: url("images/feature-image-02032018.jpeg");
+    }
+
+    .i2 {
+        content: url("images/paani_foundation_full.jpeg");
+    }
+
     .i3 {
         content: url("images/annual_day_main.jpeg");
     }
