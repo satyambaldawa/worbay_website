@@ -1,0 +1,261 @@
+.body {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.top_img {
+    margin: 0;
+    background-color: #0000009e;
+    height: 70vh;
+    /*box-shadow: inset 0px -80px 40px -20px #ffffff;*/
+}
+
+.top_section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url("images/top_img_1.jpg") no-repeat center; /* The image used */
+    /* You must set a specified height */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.top_text {
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.text_top h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+/*END TOP IMG*/
+.post {
+    padding: 30px 0;
+}
+
+.event_top_img {
+    margin: 30px;
+    overflow: hidden;
+}
+
+.event_info{
+    padding: 20px 0;
+}
+
+@media (max-width: 1450px) {
+    .event_top_img {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .event_top_img {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .i1 {
+        content: url("images/constro_full.jpeg");
+    }
+}
+
+@media (max-width: 769px) {
+    .i1 {
+        content: url("images/feature-image-02032018.jpeg");
+    }
+}
+
+.event_main_img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+.event_main_img:hover {
+    transform: scale(1.05);
+}
+
+.event_info h2 {
+    font-weight: 800;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+.event_info h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.event_info p {
+    font-size: 18px;
+    color: #777879
+}
+
+.date_text {
+    font-style: italic;
+    color: #868e96
+}
+
+.date_main {
+    color: #242424;
+}
+
+.event_info a {
+    color: #212529;
+    text-decoration: none;
+    transition: all .2s
+}
+
+.event_info a:focus, .event_info a:hover {
+    text-decoration: none;
+    color: #216bac;
+}
+
+.custom_button {
+    background-color: #216bac;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    transition: background-color .5s;
+}
+
+.custom_button:hover {
+    background-color: #029aba;
+}
+
+.separation{
+    border: none;
+    padding: 0.5px;
+    color: #707070;
+    width: 80%;
+    margin: auto;
+}
+
+.i2{
+    object-fit: cover;
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .i2 {
+        content: url("images/paani_foundation_vert.jpg");
+    }
+}
+
+@media (max-width: 769px) {
+    .i2 {
+        content: url("images/paani_foundation_full.jpeg");
+    }
+}
+
+@media (max-width: 1000px) {
+    .i3 {
+        content: url("images/annual_day_vert.jpeg");
+    }
+
+    .i4 {
+        content: url("images/annual_day_vert.jpeg");
+    }
+}
+
+@media (max-width: 769px) {
+    .i3 {
+        content: url("images/annual_day_main.jpeg");
+    }
+
+    .i4 {
+        content: url("images/annual_strategy_meet_main.jpeg");
+    }
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #242424;
+
+}
+
+.footer_div {
+    padding: 50px 0;
+    color: #e6e7e8;
+    background-size: 150% 100%;
+    background-image: url("../images/footer.png"); /* The image used */
+    /*background-color: black; !* Used if the image is unavailable *!*/
+    /* You must set a specified height */
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.footer_about {
+    padding: 20px;
+}
+
+.footer_about h3 {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.footer_about p {
+    line-height: 1.5;
+    font-weight: 250;
+}
+
+.footer_about a {
+    text-decoration: none;
+    color: #e6e7e8;
+    line-height: 2;
+}
+
+.footer_about a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.footer_icon {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.footer_icon:hover {
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    background-color: white;
+    color: #242424;
+}
+
+.creator {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 50px 30px 0;
+}
+
+.creator a {
+    text-decoration: none;
+    color: white;
+}
+
+.creator a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
