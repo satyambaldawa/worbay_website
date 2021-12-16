@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+/*#navbar_custom_offcanvas{*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
 .top_img {
     margin: 0;
     background-color: #0000009e;
@@ -235,6 +240,7 @@
         padding: 10px;
     }
 }
+
 
 
 .core_1 {

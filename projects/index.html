@@ -13,28 +13,86 @@
 
     <title>Projects by Worbay</title>
 </head>
-<body>
+<style>
+    .offcanvas {
+        background-color: black;
+    }
+
+    .nav_custom {
+        padding: 5px 20px;
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .nav_custom_active, .nav_custom:hover {
+        color: #216bac;
+        font-weight: 700;
+    }
+
+</style>
+
+<body class="body">
+
 <section class="top_section">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0000009e;padding: 20px 10px">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: #000000c2;padding: 20px 10px">
+        <div class="container-lg">
             <a class="navbar-brand" href="#">
-                <!--                <img src="static/img/mypic.jpg" alt="" width="30" height="30" style="border-radius: 50%"-->
-                <!--                     class="d-inline-block align-text-top">-->
-                Worbay
+                <img src="../Worbay_logo.png" alt="" height="40px"
+                     class="d-inline-block align-text-top">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#About">About</a>
-                    <a class="nav-link" href="#Skills">Skills</a>
-                    <a class="nav-link" href="#Experience">Experience</a>
-                    <a class="nav-link" href="#Projects">Projects</a>
-                    <a class="nav-link" href="#Awards">Awards</a>
-                    <a class="nav-link" href="#Certificate">Certificate</a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header" style="background-color: black; opacity: 1; color: white">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <a class="navbar-brand" href="#">
+                            <img src="../Worbay_logo.png" alt="" height="50px"
+                                 class="d-inline-block align-text-top">
+                        </a>
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><i class="fas fa-times"></i> &nbsp;&nbsp;
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav_custom " href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_custom" href="../aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_custom" href="#">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav_custom dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_custom nav_custom_active" href="../projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_custom" href="../clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_custom" href="../activities">Activities</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
