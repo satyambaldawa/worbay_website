@@ -1,8 +1,9 @@
-.body, html {
+.body,html {
     background-color: #ffffff;
     width: 100%;
     overflow-x: hidden;
 }
+
 
 .top_img {
     margin: 0;
@@ -19,12 +20,6 @@
     font-weight: bold;
 }
 
-.top_section {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url("images/products_top.jpg") no-repeat top; /* The image used */
-    /* You must set a specified height */
-    background-size: cover; /* Resize the background image to cover the entire container */
-}
-
 
 .text_top h1 {
     font-size: 3rem;
@@ -35,27 +30,27 @@
 }
 
 
-/*TOP*/
-.products_buttons {
-    margin: 50px auto;
-}
-
-.products_buttons button {
-    /*font-size: 0.8rem;*/
-    margin: 5px;
-}
-
-
-@media (max-width: 550px) {
-    .products_buttons {
-        display: none;
+@media (max-width: 770px) {
+    .text_top h1 {
+        font-size: 2rem;
     }
+
+}
+
+
+/*END TOP IMG*/
+.turnkey_main_window {
+    margin: 50px 0;
+}
+
+.turnkey_row{
+    padding: 25px 0;
 }
 
 .image_pannel {
+    width: 100%;
     overflow: hidden;
-    margin: 35px;
-    box-shadow: 0 0 5px 0 #216bac;
+    box-shadow: 0 0 10px 0 #216bac;
 }
 
 .image_pannel img {
@@ -67,37 +62,21 @@
     transform: scale(1.15);
 }
 
-.event_info {
-    padding: 35px 0;
+.text_pannel{
+    margin: 20px auto;
 }
 
-.event_info h2 {
+.text_pannel h3 {
     color: #216bac;
     font-weight: 800;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
-.event_info p {
+.text_pannel p {
     font-size: 18px;
     color: #777879;
     text-align: justify;
-}
-
-@media (max-width: 770px) {
-    .event_info h2 {
-        text-align: center;
-    }
-
-    .event_info {
-        padding: 20px;
-    }
-}
-
-.separation {
-    border: none;
-    padding: 1px 0;
-    color: #a2a2a2;
-    margin: auto;
 }
 
 .custom_button {
@@ -118,16 +97,6 @@
     color: white;
 }
 
-.button_gray {
-    background-color: #404040;
-    color: white;
-}
-
-.button_gray:hover {
-    background-color: #000000;
-    color: white;
-}
-
-.abc {
+.abc{
     display: none;
 }

@@ -1,7 +1,9 @@
-.body {
+.body, html {
     background-color: #ffffff;
     width: 100%;
+    overflow-x: hidden;
 }
+
 
 .top_img {
     margin: 0;
@@ -32,7 +34,10 @@
     letter-spacing: 5px;
 }
 
+
 /*END TOP IMG*/
+
+
 
 /*projects*/
 
@@ -76,94 +81,3 @@
     color: #216bac;
     /*text-shadow: 5px 5px 2px #216bac;*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
-footer {
-    background-color: #242424;
-
-}
-
-.footer_div {
-    padding: 50px 0;
-    color: #e6e7e8;
-    background-size: 150% 100%;
-    background-image: url("../images/footer.png"); /* The image used */
-    /*background-color: black; !* Used if the image is unavailable *!*/
-    /* You must set a specified height */
-    background-position: bottom; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-}
-
-.footer_about {
-    padding: 20px;
-}
-
-.footer_about h3 {
-    padding: 10px 0;
-    font-weight: 500;
-}
-
-.footer_about p {
-    line-height: 1.5;
-    font-weight: 250;
-}
-
-.footer_about a {
-    text-decoration: none;
-    color: #e6e7e8;
-    line-height: 2;
-}
-
-.footer_about a:hover {
-    text-decoration: none;
-    font-weight: 500;
-    color: white;
-}
-
-.footer_icon {
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin: 5px 5px 5px 0;
-    transition: color 0.5s, background-color 0.5s;
-}
-
-.footer_icon:hover {
-    border-radius: 50%;
-    margin: 5px 5px 5px 0;
-    background-color: white;
-    color: #242424;
-}
-
-.creator {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 50px 30px 0;
-}
-
-.creator a {
-    text-decoration: none;
-    color: white;
-}
-
-.creator a:hover {
-    text-decoration: none;
-    color: white;
-}
-
-

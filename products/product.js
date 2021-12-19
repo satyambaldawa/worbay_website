@@ -1,6 +1,5 @@
-var idList = ['fireExtinguisher', 'smokeDetector','fireHydrant','firePumpRoom','gasSuppression','gasLeak']
+var idList = ['fireExtinguisher', 'smokeDetector', 'fireHydrant', 'firePumpRoom', 'gasSuppression', 'gasLeak', 'pdFireDetector', 'pdPortableExt', 'pdAccessories']
 for (let idName of idList) {
-    console.log(idName);
     let a = $("#" + idName)
     let b = $("." + idName)
     a.on("click", function () {

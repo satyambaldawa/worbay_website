@@ -7,10 +7,18 @@
     <link href="products.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/df65e24a0c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../aos.css">
+    <link rel="stylesheet" href="../header_footer.css">
+    <link rel=icon href="../worbay_icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&family=Noto+Sans:wght@400;700&display=swap"
+          rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Worbay</title>
+    <title>Products | Worbay</title>
 </head>
 <style>
     .offcanvas {
@@ -31,6 +39,12 @@
         color: #216bac;
         font-weight: 700;
     }
+
+    .products_buttons button {
+        background-color: #216bac;
+        border: #216bac;
+        color: white;
+    }
 </style>
 
 <body class="body">
@@ -38,7 +52,7 @@
 <section class="top_section">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: #000000c2;padding: 20px 10px">
         <div class="container-lg">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.html">
                 <img src="../Worbay_logo.png" alt="" height="40px"
                      class="d-inline-block align-text-top">
             </a>
@@ -50,7 +64,7 @@
                  aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header" style="background-color: black; opacity: 1; color: white">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="../index.html">
                             <img src="../Worbay_logo.png" alt="" height="50px"
                                  class="d-inline-block align-text-top">
                         </a>
@@ -76,9 +90,10 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="../services/turnkey.html">Turnkey Solution</a></li>
+                                <li><a class="dropdown-item" href="../services/productdist.html">Product
+                                    Distribution</a></li>
+                                <li><a class="dropdown-item" href="../services/amcservice.html">ACM services</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -104,6 +119,14 @@
         </div>
     </div>
 </section>
+
+<div class="whatsaap">
+    <a target="_blank"
+       href="https://web.whatsapp.com/send?phone=+917774095101&amp;text=Hi, I would like to get more information.."
+       class="footer-link whatsapplink hidemobile">
+        <img src="../whatsapp.png" alt="whatsaap">
+    </a>
+</div>
 
 <section class="products_buttons">
     <div class="container">
@@ -519,7 +542,8 @@
                 <div class="col-6 col-md-4 col-lg-3 footer_col">
                     <div class="footer_about">
                         <h3>QUICK LINKS</h3>
-                        <p><a href="../index.html">Home</a> <br><a href="../aboutus">About Us</a> <br><a href="#">Products</a>
+                        <p><a href="../index.html">Home</a> <br><a href="../aboutus">About Us</a> <br><a
+                                href="../products">Products</a>
                             <br><a
                                     href="../clients">Clients</a> <br><a href="../projects">Projects</a> <br><a
                                     href="#">Contact</a> <br></p>
@@ -529,7 +553,9 @@
                 <div class="col-6 col-md-4 col-lg-2 footer_col">
                     <div class="footer_about">
                         <h3>SERVICES</h3>
-                        <p><a href="#">Turnkey Solution</a> <br><a href="#">Product Distribution</a> <br><a href="#">ACM
+                        <p><a href="../services/turnkey.html">Turnkey Solution</a> <br><a
+                                href="../services/productdist.html">Product Distribution</a> <br><a
+                                href="../services/amcservice.html">AMC
                             Service</a></p>
                     </div>
                 </div>
@@ -544,7 +570,8 @@
                 </div>
             </div>
             <div class="creator">
-                <p>Designed by <a href="">Satyam Baldawa</a> | 2022 Worbay, All Rights Reserved</p>
+                <p>Designed by <a href="https://satyamportfolio.herokuapp.com/">Satyam Baldawa</a> | © 2022 Worbay, All
+                    Rights Reserved</p>
             </div>
         </div>
     </div>

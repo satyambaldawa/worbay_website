@@ -1,6 +1,7 @@
-.body {
+.body. html {
     background-color: #ffffff;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .top_img {
@@ -35,7 +36,6 @@
 .about_top {
     padding: 50px 0;
 }
-
 
 /*.panel-body {*/
 /*    box-shadow: -21px 21px 0px 0px #c0c0c052;*/
@@ -182,8 +182,7 @@
 }
 
 x
-/* DMS */
-
+    /* DMS */
 .pannel_outer_2 {
     box-shadow: 18px 18px 0px 0px #c0c0c052;
 }
@@ -244,53 +243,53 @@ x
     border-radius: 0 0 50% 50%;
 }
 
-.goal_img_div{
+.goal_img_div {
     margin: 50px;
 }
 
 @media (max-width: 1000px) {
-    .goal_img_div{
+    .goal_img_div {
         margin: 10px;
     }
 }
 
 @media (max-width: 765px) {
-    .goal_img_div{
+    .goal_img_div {
         margin: 50px;
     }
 }
 
-.img_sticker{
+.img_sticker {
     width: 100%;
     transition: transform 1s;
 }
 
-.img_sticker:hover{
+.img_sticker:hover {
     transform: scale(1.15);
 }
 
-.goal_main_text p{
+.goal_main_text p {
     padding-left: 55px;
     font-size: 0.8rem;
 }
 
-.goal p{
+.goal p {
     color: #282828;
 }
 
-.goal h5{
+.goal h5 {
     line-height: 2;
     font-weight: 600;
     text-transform: uppercase;
     color: #404040;
 }
 
-.goal h5:hover{
+.goal h5:hover {
     font-weight: bolder;
     color: #242424;
 }
 
-.fa_icon{
+.fa_icon {
     color: white;
     padding: 10px;
     background-color: #216bac;
@@ -299,97 +298,16 @@ x
     transform: scale(0.8);
 }
 
-.fa_icon:hover{
+.fa_icon:hover {
     transform: scale(1);
 }
 
 /* Mission */
-.mission{
+.mission {
     background: #e7e7e7;
     padding-bottom: 50px;
 }
 
-.mission_main_text {
+/*.mission_main_text {*/
 
-}
-
-
-
-
-
-
-
-/* FOOTER */
-footer {
-    background-color: #242424;
-
-}
-
-.footer_div {
-    padding: 50px 0;
-    color: #e6e7e8;
-    background-size: 150% 100%;
-    background-image: url("../images/footer.png"); /* The image used */
-    /*background-color: black; !* Used if the image is unavailable *!*/
-    /* You must set a specified height */
-    background-position: bottom; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-}
-
-.footer_about {
-    padding: 20px;
-}
-
-.footer_about h3 {
-    padding: 10px 0;
-    font-weight: 500;
-}
-
-.footer_about p {
-    line-height: 1.5;
-    font-weight: 250;
-}
-
-.footer_about a {
-    text-decoration: none;
-    color: #e6e7e8;
-    line-height: 2;
-}
-
-.footer_about a:hover {
-    text-decoration: none;
-    font-weight: 500;
-    color: white;
-}
-
-.footer_icon {
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin: 5px 5px 5px 0;
-    transition: color 0.5s, background-color 0.5s;
-}
-
-.footer_icon:hover {
-    border-radius: 50%;
-    margin: 5px 5px 5px 0;
-    background-color: white;
-    color: #242424;
-}
-
-.creator {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 50px 30px 0;
-}
-
-.creator a {
-    text-decoration: none;
-    color: white;
-}
-
-.creator a:hover {
-    text-decoration: none;
-    color: white;
-}
+/*}*/
