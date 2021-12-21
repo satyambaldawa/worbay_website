@@ -58,8 +58,8 @@
 .typing-demo {
     font-size: 1.5rem;
     color: #e6e7e8;
-    width: 32ch;
-    animation: typing 2s steps(32), blink .5s step-end infinite alternate;
+    /*width: 35ch;*/
+    animation: typing 2s steps(35), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;

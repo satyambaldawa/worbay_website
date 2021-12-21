@@ -18,11 +18,13 @@ p {
     z-index: 50;
     right: 15px;
     bottom: 15px;
+
 }
 
 .whatsaap img{
-    width: 60px;
-    border-radius: 10px;
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 #404040;
     transition: transform 1s;
 }
 
